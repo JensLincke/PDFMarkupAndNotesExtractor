@@ -18,5 +18,5 @@ Apple Automator allows to extract the annotations of a PDF, but it only gives yo
 Skim, a PDF annotation programm, provides similar extraction facilities, but only for notes taken with itself. It allows to convert existing annotations from "Preview", but the converted annotations do not contain the marked up text. 
 
 ## Copyright 
-under MIT The MIT License (MIT)
+under MIT License (MIT)
 Copyright (c) 2014 Jens Lincke
