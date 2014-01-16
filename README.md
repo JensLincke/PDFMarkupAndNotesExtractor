@@ -18,7 +18,10 @@ extracting annotations and markup:
 
   pdf_extract_notes.sh  Appeltauer_2012_ExtendingContextOrientedProgrammingToNewApplicationDomains.pdf 
 
-{{{
+produces a:
+  Appeltauer_2012_ExtendingContextOrientedProgrammingToNewApplicationDomains.note
+
+```
 Page: SEITE 1
 Stamp: jens - 09.01.2014
 Marked: Context-oriented Programming 
@@ -27,16 +30,18 @@ Note: Malte’s Thesis
 Page: SEITE 15
 Stamp: jens - 09.01.2014
 Marked: 1^MIntroduction
-}}}
-
-
+```
 
 it can alo handle more files:
 
   pdf_extract_notes.sh  *.pdf 
 
+It will overwrite existing note files when the pdf is newer than the note file. 
 
+## TODO
 
+ [ ] The shell script replaces german relative words "Ich", "Heute", "Gerstern" but not the english ones... 
+ [ ] The color / type of the annotation is not extracted
 
 
 ## Related Work
