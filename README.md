@@ -50,6 +50,8 @@ Apple Automator allows to extract the annotations of a PDF, but it only gives yo
 
 Skim, a PDF annotation programm, provides similar extraction facilities, but only for notes taken with itself. It allows to convert existing annotations from "Preview", but the converted annotations do not contain the marked up text. 
 
+There is a nice skim based workflow http://hackademic.postach.io/export-all-skim-notes-directly-to-evernote that also exports the annotations to evernote. 
+
 ## Copyright 
 under MIT License (MIT)
 Copyright (c) 2014 Jens Lincke
