@@ -11,6 +11,34 @@ NOTE: you will be asked to grand the "Terminal" the right to control your comput
 WARNING: For this reason, the script might have to be adapted for every future version of "Preview", until there will be a stable API for accessing the notes and markup.
 
 
+## Example
+
+
+extracting annotations and markup:
+
+  pdf_extract_notes.sh  Appeltauer_2012_ExtendingContextOrientedProgrammingToNewApplicationDomains.pdf 
+
+{{{
+Page: SEITE 1
+Stamp: jens - 09.01.2014
+Marked: Context-oriented Programming 
+Note: Malte’s Thesis
+
+Page: SEITE 15
+Stamp: jens - 09.01.2014
+Marked: 1^MIntroduction
+}}}
+
+
+
+it can alo handle more files:
+
+  pdf_extract_notes.sh  *.pdf 
+
+
+
+
+
 ## Related Work
 
 Apple Automator allows to extract the annotations of a PDF, but it only gives you your own note and the position and color of the annation, but not the actual content of what you marked. This limitation might be due to copyright reasons, but this is not clear. 
