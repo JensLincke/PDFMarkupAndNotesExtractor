@@ -40,8 +40,8 @@ It will overwrite existing note files when the pdf is newer than the note file.
 
 ## TODO
 
- [ ] The shell script replaces german relative words "Ich", "Heute", "Gerstern" but not the english ones... 
- [ ] The color / type of the annotation is not extracted
+ - The shell script replaces german relative words "Ich", "Heute", "Gerstern" but not the english ones... 
+ - The color / type of the annotation is not extracted
 
 
 ## Related Work
