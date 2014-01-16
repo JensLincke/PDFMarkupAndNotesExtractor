@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# Copyright (c) 2014 Jens Lincke, under MIT License (MIT)
+
 # This script uses "Preview" to extract the annotations and notes of pdf files into a text file
 # Since there is no public API for extracting the annotations, it scraps them from the UI of "Preview"
 
